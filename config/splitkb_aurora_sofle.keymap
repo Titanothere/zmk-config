@@ -47,8 +47,8 @@
 // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&trans &trans       &trans           &trans            &trans    &trans                       &trans        &trans       &trans   &trans        &trans            &kp DELETE
-&trans &kp INSERT   &kp PRINTSCREEN  &kp K_APPLICATION &none     &none                        &kp PAGE_UP   &kp LC(LEFT) &kp UP   &kp LC(RIGHT) &kp LC(BACKSPACE) &kp BACKSPACE
+&trans    &kp F1 &kp F2 &kp F3 &kp F4 &kp F5              &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
+&kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5              &kp N6 &kp N7 &kp N8 &kp N9 &kp N0  &kp F12
 &trans &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_SHIFT    &none     &kp CAPSLOCK                 &kp PAGE_DOWN &kp LEFT     &kp DOWN &kp RIGHT     &kp DELETE        &kp BACKSPACE
 &trans &kp LC(Z)    &kp LC(X)        &kp LC(C)         &kp LC(V) &none       &none  &none     &none         &kp HOME     &none    &kp END       &none             &trans
                     &trans           &trans            &trans    &mo 3       &trans &trans    &trans        &trans       &trans   &trans
