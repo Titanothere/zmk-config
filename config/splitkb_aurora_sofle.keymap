@@ -47,11 +47,11 @@
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +       |  {        |   }       |  "|"            |
 //               |     |      |      |      |        |  |       |      |       |          |           |
             bindings = <
-&trans        &trans       &trans           &trans            &trans    &trans                         &trans        &trans       &trans   &trans        &trans            &kp DEL
-&trans        &kp INSERT   &kp PRINTSCREEN  &kp K_APPLICATION &none     &none                          &kp PAGE_UP   &kp LC(LEFT) &kp UP   &kp LC(RIGHT) &kp LC(BACKSPACE) &kp BACKSPACE
-&trans        &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_SHIFT    &none     &kp CAPSLOCK                   &kp PAGE_DOWN &kp LEFT     &kp DOWN &kp RIGHT     &kp DEL           &kp BACKSPACE
-&trans        &kp LC(Z)    &kp LC(X)        &kp LC(C)         &kp LC(V) &none         &trans  &trans   &none         &kp HOME     &none    &kp END       &none             &trans
-                           &trans           &trans            &trans    &trans        &trans  &trans   &trans        &trans       &trans   &trans
+&trans    &kp F1    &kp F2    &kp F3    &kp F4       &kp F5                     &kp F6       &kp F7        &kp F8   &kp F9       &kp F10  &kp F11
+&kp GRAVE &kp N1    &kp N2    &kp N3    &kp N4       &kp N5                     &kp N6       &kp N7        &kp N8   &kp N9       &kp N0   &kp F12
+&trans    &kp EXCL  &kp AT    &kp HASH  &kp DLLR     &kp PRCNT                  &kp CARET    &kp AMPS      &kp STAR &kp LPAR     &kp RPAR &kp MINUS
+&trans    &kp GRAVE &kp NUHS  &kp EQUAL &kp LS(NUHS) &kp UNDER   &trans &trans  &kp LA(NUBS) &kp RA(MINUS) &kp NUBS &kp LS(NUBS) &kp RBKT &trans
+                    &trans    &trans    &trans       &trans      &trans &trans  &mo 3        &trans        &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp F20 F21 &inc_dec_kp F22 F23>;
