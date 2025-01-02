@@ -11,10 +11,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    EXT_POWER {
-        compatible = "zmk,ext-power-generic";
-        control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;  // change this to HIGH
-    };
 
     keymap {
         compatible = "zmk,keymap";

@@ -17,6 +17,15 @@
     // chain-length = <29>; // Uncomment if using only per-key LEDs.
 };
 
+&gpio0 {
+    extpwr_pull: extpwr_pull {
+        gpio-hog;
+        gpios = <15 GPIO_ACTIVE_HIGH>;  // might need to swap this or the next, not sure
+        output-low;
+        line-name = "Disable ext power pin";
+    };
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";

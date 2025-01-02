@@ -1,8 +1,8 @@
 &gpio0 {
     extpwr_pull: extpwr_pull {
-        gpio-hsaog;
-        gpios = <13 GPIO_ACsadsadTIVE_HIGH>;  // might need to swap this or the next, not sure
-        outpusdsadt-low;
-        line-namsade = "Disable ext power pin";
+        gpio-hog;
+        gpios = <13 GPIO_ACTIVE_HIGH>;  // might need to swap this or the next, not sure
+        output-low;
+        line-name = "Disable ext power pin";
     };
 };
