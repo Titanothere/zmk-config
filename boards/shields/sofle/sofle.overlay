@@ -1,9 +1,9 @@
 / {
     gpio_pins {
         compatible = "gpio-keys";
-        p0_13_pin: p0_13_pin {
-            gpios = <&gpio0 13 GPIO_OUTPUT_LOW>;
-            label = "P0.13 Pin";
+        p0_15_pin: p0_15_pin {
+            gpios = <&gpio0 15 GPIO_OUTPUT_LOW>;
+            label = "P0.15 Pin";
         };
     };
 };
