@@ -11,8 +11,10 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    keymap {
+        compatible = "zmk,keymap";
 
-    default_layer {
+        default_layer {
 // ------------------------------------------------------------------------------------------------------------
 // |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0  | BSPC  |
 // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P  | LBKT  |
