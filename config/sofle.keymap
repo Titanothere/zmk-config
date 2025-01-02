@@ -10,6 +10,15 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
 
+&gpio0 {
+    extpwr_pull: extpwr_pull {
+        gpio-hog;
+        gpios = <15 GPIO_ACTIVE_HIGH>;  // might need to swap this or the next, not sure
+        output-low;
+        line-name = "Disable ext power pin";
+    };
+};
+
 / {
 
     keymap {
