@@ -1,7 +1,8 @@
-/ {
-    zephyr,user {
-        my_output_pin: my_output_pin {
-            gpios = <&gpio0 15 GPIO_OUTPUT_LOW>;
-        };
+&gpio0 {
+    extpower-pull: extpower-pull {
+        gpio-hog;
+        gpios = <13 GPIO_ACTIVE_LOW>;  // might need to swap this or the next, not sure
+        output-low;
+        line-name = "Disable ext power pin";
     };
 };
