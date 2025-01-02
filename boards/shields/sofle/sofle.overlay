@@ -1,7 +1,7 @@
 / {
     zephyr,user {
         my_output_pin: my_output_pin {
-            gpios = <&gpio0 13 GPIO_OUTPUT_LOW>;
+            gpios = <&gpio0 15 GPIO_OUTPUT_LOW>;
         };
     };
 };
